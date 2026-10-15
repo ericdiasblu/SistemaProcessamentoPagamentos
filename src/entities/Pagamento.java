@@ -79,8 +79,6 @@ public abstract class Pagamento {
 
     public abstract void calcularTaxa();
 
-    public abstract void consultarStatus();
-
     @Override
     public String toString() {
         return "Pagamento{" +
