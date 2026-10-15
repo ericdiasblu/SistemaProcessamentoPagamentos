@@ -74,9 +74,4 @@ public class Pix extends Pagamento {
     public void calcularTaxa() {
 
     }
-
-    @Override
-    public void consultarStatus() {
-
-    }
 }
