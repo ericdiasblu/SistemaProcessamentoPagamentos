@@ -81,17 +81,6 @@ public abstract class Pagamento {
 
     public abstract void consultarStatus();
 
-    public abstract void confirmarPagamento();
-
-    public abstract void cancelarPagamento();
-
-    public abstract void validarPagamento();
-
-    public abstract void notificarAlteracao();
-
-    public abstract void consultarPagamento();
-
-
     @Override
     public String toString() {
         return "Pagamento{" +
