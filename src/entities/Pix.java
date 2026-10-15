@@ -66,7 +66,8 @@ public class Pix extends Pagamento {
 
     @Override
     public void realizarPagamento() {
-        System.out.println("O pagamento em PIX foi realizado com sucesso");
+        super.setStatus(StatusPagamento.APROVADO);
+        System.out.println("O pagamento em PIX no valor de: " + super.getValor() + " foi realizado com sucesso. Status: " + super.getStatus());
     }
 
     @Override
@@ -76,31 +77,6 @@ public class Pix extends Pagamento {
 
     @Override
     public void consultarStatus() {
-
-    }
-
-    @Override
-    public void confirmarPagamento() {
-
-    }
-
-    @Override
-    public void cancelarPagamento() {
-
-    }
-
-    @Override
-    public void validarPagamento() {
-
-    }
-
-    @Override
-    public void notificarAlteracao() {
-
-    }
-
-    @Override
-    public void consultarPagamento() {
 
     }
 }
